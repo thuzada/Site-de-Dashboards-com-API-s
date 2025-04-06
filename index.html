@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard de Linguagens</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Dashboard de Linguagens de Programação</h1>
+  <div id="graficos-container"></div>
+  <main>
+    <div id="central">
+    <div id="divdecima">
+    <section id="grafico1">
+
+        <header>
+          <h2> Linguagens mais populares em 2025</h2>
+        </header>
+        <article id="artigo">
+          <canvas id="graficoPopulares" width="400" height="200"></canvas>
+        </article>
+        <footer>
+          <p>Fonte:GitHub REST API </p>
+        </footer>
+
+    </section>
+    <section id="grafico2">
+
+        <header>
+          <h2> Popularidade de IDEs/editores por linguagem</h2>
+        </header>
+        <article id="artigo">
+      <canvas id="graficoIDEs" width="400" height="200"></canvas>
+        </article>
+        <footer>
+          <p>Fonte: Stack Overflow</p>
+        </footer>
+
+    </section>
+  </div>
+  <div id="divdebaixo">
+    <section id="grafico3">
+
+      <header>
+        <h2> Linguagens mais usadas por área</h2>
+      </header>
+      <article id="artigo"> 
+        <canvas id="graficoPorArea" width="400" height="200"></canvas>
+      
+      </article>
+      <footer>
+        <p>Fonte: Stack Overflow</p>
+      </footer>
+
+    </section>
+    <section id="grafico4">
+
+        <header>
+          <h2> Participação das linguagens em vagas de emprego</h2>
+        </header>
+        <article id="artigo">
+          <canvas id="graficoVagas" width="400" height="200"></canvas>
+        </article>
+        <footer>
+          <p>Fonte: Adzuna</p>
+        </footer>
+
+    </section>
+  </div>
+</div>
+  <section id="lateral">
+
+    <header>
+      <h2> Média salarial por linguagem de programação</h2>
+    </header>
+    <article id="artigo">
+      <div id="tabelaSalarios"></div>
+      </article>
+    <footer>
+      <p>Fonte: Stack Overflow</p>
+    </footer>
+
+    
+
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
