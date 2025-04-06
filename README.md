@@ -34,7 +34,3 @@ Este projeto é um painel interativo que exibe dados reais sobre linguagens de p
 4. Rode o servidor  
    `python app.py`
 5. Abra o `index.html` no navegador
-
----
-
-Quer que eu salve esse conteúdo em arquivos prontos pra você baixar ou copiar?
